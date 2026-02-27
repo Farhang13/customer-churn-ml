@@ -60,7 +60,7 @@ Key variables include:
 
 ## 3. System Architecture
 
-
+```text
 customer-churn-ml/
 │
 ├── data/
@@ -82,7 +82,7 @@ customer-churn-ml/
 ├── main.py
 ├── requirements.txt
 └── README.md
-
+```
 
 The system uses:
 
