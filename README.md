@@ -60,19 +60,27 @@ Key variables include:
 
 ## 3. System Architecture
 
+```text
 customer-churn-ml/
-
-
 │
 ├── data/
+│   ├── raw/
+│   └── processed/
+│
 ├── models/
+│   └── churn_model.pkl
+│
 ├── src/
-│ ├── preprocessing.py
-│ ├── pipeline.py
-│ ├── train.py
-│ ├── evaluate.py
-│ └── ...
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── pipeline.py
+│   ├── train.py
+│   └── evaluate.py
+│
 ├── main.py
+├── requirements.txt
 └── README.md
 
 
