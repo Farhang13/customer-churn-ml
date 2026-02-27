@@ -61,6 +61,8 @@ Key variables include:
 ## 3. System Architecture
 
 customer-churn-ml/
+
+
 │
 ├── data/
 ├── models/
@@ -181,11 +183,3 @@ This makes the system suitable for banking, fintech, telecom, and subscription-b
 
 ---
 
-## 9. How to Run
-
-Create environment:
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
