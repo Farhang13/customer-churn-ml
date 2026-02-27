@@ -60,7 +60,7 @@ Key variables include:
 
 ## 3. System Architecture
 
-```text
+
 customer-churn-ml/
 │
 ├── data/
